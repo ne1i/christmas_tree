@@ -10,11 +10,12 @@ It will print two kinds of trees:
 Exemple run of the program:
 
 ```
-How many rows do you want in your pyramid ?
+How many rows do you want in your christmas tree ?
 10
-*   
-**  
-*** 
+Rectangular triangle tree:
+*
+**
+***
 ****
 *****
 ******
@@ -23,7 +24,7 @@ How many rows do you want in your pyramid ?
 *********
 **********
 
---------------------------------
+Isoceles triangle tree:
         🌟
          *
         ***

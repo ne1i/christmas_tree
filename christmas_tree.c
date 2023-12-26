@@ -1,11 +1,12 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
     int rows;
-    printf("How many rows do you want in your pyramid ?\n");
+    printf("How many rows do you want in your christmas tree ?\n");
     scanf("%d", &rows);
 
+    printf("Rectangular triangle tree:\n");
     // int last_row = rows * 2 - 1;
     for (int i = 0; i < rows; i++)
     {
@@ -16,7 +17,7 @@ int main()
         printf("\n");
     }
 
-    printf("\n--------------------------------\n");
+    printf("\nIsoceles triangle tree:\n");
     int spaces = rows - 1;
     int stars = 1;
     for (int j = 0; j < spaces - 1; j++)
